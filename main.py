@@ -12,6 +12,9 @@ def add(x, y):
 def sub(x, y):
     return x - y
 
+while True:
+    main()
+    _ = input("Programm Schluss. Drücke Enter!")
 
 if __name__ == '__main__':
     main()
