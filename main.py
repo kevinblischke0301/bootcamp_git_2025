@@ -1,6 +1,6 @@
 def main():
-    x = 2.0
-    y = 4.0
+    x = float(input("Was ist die erste Zahl?\n"))
+    y = float(input("Was ist die zweite Zahl?\n"))
 
     print(f"{x} + {y} = {add(x, y)}")
 
