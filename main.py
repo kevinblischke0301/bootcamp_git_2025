@@ -2,7 +2,16 @@ def main():
     x = 2.0
     y = 4.0
 
-    print(f"{x} + {y} = {add(x, y)}")
+    operator = input("Welchen Operator möchtest du nutzen: ")
+
+    solution = 0
+
+    if operator == "+":
+        solution = add(x,y)
+    elif operator == "-":
+        solution = sub(x,y)
+
+    print(f"{x} {operator} {y} = {solution}")
 
 
 def add(x, y):
