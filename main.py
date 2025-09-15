@@ -10,6 +10,12 @@ def main():
         solution = add(x,y)
     elif operator == "-":
         solution = sub(x,y)
+    elif operator == "*":
+        solution = mul(x,y)
+    elif operator == "/":
+        solution = div(x,y)
+    else:
+        print("Bitte gib einen gültigen operator ein")
 
     print(f"{x} {operator} {y} = {solution}")
 
